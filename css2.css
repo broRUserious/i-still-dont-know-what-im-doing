@@ -1,0 +1,197 @@
+html {
+	font-size:100%; 
+}
+* {
+	box-sizing: border-box
+}
+body {
+	background-color: #DFCF5F;
+}
+.hero {
+	position: relative;
+
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagek.jpg");
+    height: 102.5%;
+    max-width: 138.5%;
+    min-width: 100%;
+    width: 138.5%;
+	background-position: center center;
+    background-repeat: no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+	text-align: center;
+}
+.hero-text img {
+	 border-top-left-radius: 50% 50%;
+	 border-top-right-radius: 50% 50%;
+     border-bottom-right-radius: 50% 50%;
+     border-bottom-left-radius: 50% 50%;
+}
+#header{
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+	text-align: center;
+}
+#para{
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-size: 15px;
+    font-weight: 300px;
+    margin: 0 0 20px 0;
+	text-align: center;
+}
+div.slide-left {
+  animation: slide-left 2s;
+}
+@keyframes slide-left {
+  from {
+    margin-left: 138.5%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+#container{
+	border: 1px
+	background-color: rgb(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	width: 900px;
+	height: 550px;
+}	
+#foot {
+	clear: both;
+}
+#content{
+	padding: 10px;
+}
+
+#content h2 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 40px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: 700;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: lowercase;
+    margin: 70px 0 10px ;
+	text-align: center;
+}
+#content p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: 700;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: lowercase;
+    margin: 70px 0 10px ;
+	float: right;
+}
+#socials{
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-size: 15px;
+    font-weight: 300;
+	float: left;
+}
+#about-me img {
+	float: left;
+	border: 1px black;
+	margin: 0 0 0 40px
+}
+#about-me h2 a:link {
+	color: black;
+	text-decoration: none;
+}
+#about-me h2 a:visited {
+	color: black; 
+	text-decoration: none;
+}
+#about-me h2 a:hover {
+	color: black;
+	text-decoration: none;
+}
+#photos { 
+	float: right;
+}
+#photos img {
+	margin: 5px 120px 50px 0;
+	text-align: center;
+}
+#copyright {
+	color: black;
+	text-align: center;
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+#socials ul {
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 30px 1000px 0px 0;
+	list-style-type: none;
+	
+}
+#socials h2 {
+	float: left;
+}
+#no_u li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+#no_u li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#no_u li a:hover {
+  background-color: #fff;
+	color: #808080;
+}
+
+#no_u .active a:hover{
+  background-color: #000;
+  color: #808080;
+}
+a:link {
+	color: black;
+	text-decoration: none;
+	transition: all .2s linear;
+}
+a:visited {
+	color: black; 
+	text-decoration: none;
+	transition: all .2s linear;
+}
+a:hover {
+	color: grey;
+	text-decoration: none;
+}
